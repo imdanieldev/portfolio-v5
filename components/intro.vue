@@ -1,8 +1,8 @@
 <template>
-    <div id="intro" class="flex justify-around items-center h-[100SVH] w-full flex-col">
+    <div id="intro" class="flex justify-around items-center h-[100SVH] w-full flex-col fixed top-0 left-0 z-10">
         <div class="text-center">
             <h1 class="mt-6 text-5xl sm:text-6xl">Daniel Web Dev</h1>
-            <p class="mt-8 text-2xl">Hello I'm Daniel.</p>
+            <p class="text-2xl mt-6">Hello I'm Daniel.</p>
             <p class="mt-2">2008/3/7</p>
             <p class="mt-2">Iran - Isfahan</p>
         </div>

@@ -1,10 +1,13 @@
 <template>
 	<div>
-		<div class="min-h-[100SVH] w-full bg-gradient-to-br from-emerald-500 via-sky-500 to-indigo-500 relative font-noto">
-			<Pages />
+		<div class="h-[100SVH] w-full bg-gradient-to-bl from-emerald-500 via-sky-500 to-indigo-500 relative font-noto">
 			<Intro />
-			<Skills />
-			<Contact />
+			<div class="w-full -z-10 relative h-[100svh]"></div>
+			<div class="w-full z-30 relative bg-gradient-to-br to-emerald-500 via-sky-500 from-indigo-500">
+				<Pages />
+				<Skills />
+				<Contact />
+			</div>
 		</div>
 	</div>
 </template>
@@ -14,7 +17,7 @@ useHead({
 	bodyAttrs: {
 		class: "overflow-hidden"
 	},
-	htmlAttrs:{
+	htmlAttrs: {
 		class: "scroll-smooth"
 	}
 });
